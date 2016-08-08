@@ -5,6 +5,13 @@
     margin-top:3%;
     width:80%;
  }
+
+@media screen and (max-width: 600px) {
+.container {
+    width:100%;
+ }
+  }
+
 body {
     font-family: 'Lato', sans-serif;
  }
@@ -18,6 +25,13 @@ h1 {
     font-size: 36px;
     }
   }
+
+.rowborder {
+  width: 100%;
+  color: #7d97ad;
+  height: 4px;
+  background-color:#7d97ad;
+ }
 
 .logo {
    width: 100px;
@@ -43,7 +57,7 @@ h1 {
  @media screen and (max-width: 600px) {
   .bodyimage {
     width: 100%;
-    height: 250px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -75,6 +89,18 @@ h1 {
     margin-right:auto;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 58px;
+    }
+  .imageproj {
+    height:200px;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  }
 
  .project {
     color: #2d3c49;
